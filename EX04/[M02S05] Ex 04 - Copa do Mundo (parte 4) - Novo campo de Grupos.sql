@@ -1,5 +1,5 @@
 --a) Alterar a tabela de TIMES, adicionando a coluna de 'grupo' (varchar).
-ALTER TABLE times ADD grupo VARCHAR;
+ALTER TABLE times ADD grupo VARCHAR(1);
 
 --b) Atualizar cada registro com o respectivo grupo em que faz parte, conforme listagem abaixo.
 UPDATE times SET grupo = 'A' WHERE nome IN ('Qatar', 'Equador', 'Senegal', 'Holanda');

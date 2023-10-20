@@ -23,7 +23,7 @@ INSERT INTO campeoes(ano, sigla_time) VALUES (2002, (SELECT sigla FROM times WHE
 INSERT INTO campeoes(ano, sigla_time) VALUES (2010, (SELECT sigla FROM times WHERE nome ='Espanha'));
 INSERT INTO campeoes(ano, sigla_time) VALUES (2014, (SELECT sigla FROM times WHERE nome ='Alemanha'));
 INSERT INTO campeoes(ano, sigla_time) VALUES (2018, (SELECT sigla FROM times WHERE nome ='França'));
-
+INSERT INTO campeoes(ano, sigla_time) VALUES (2022, (SELECT sigla FROM times WHERE nome ='Argentina'));
 
 --c) Consultar os dados desta tabela para conferência.
 SELECT * FROM campeoes;
